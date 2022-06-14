@@ -238,7 +238,7 @@ x <- DATA
 fg <- factor(g)
 prior <- colSums(Y)/sum(colSums(Y))
 if(eqprior) prior <- c(rep(1/ng,ng))
-if(priin != 1) prior<-priin
+if(priin[1] != 1) prior<-priin
 cnames <- levels(fg)
 g <- as.numeric(fg)
 J <- length(cnames)
@@ -341,7 +341,7 @@ x <- DATA
 fg <- factor(g)
 prior <- colSums(Y)/sum(colSums(Y))
 if(eqprior) prior <- c(rep(1/ng,ng))
-if(priin != 1) prior<-priin
+if(priin[1] != 1) prior<-priin
 cnames <- levels(fg)
 g <- as.numeric(fg)
 J <- length(cnames)
