@@ -74,7 +74,7 @@
 
     pri  <- c(0.1427,0.5864,0.2709) # The prior probabilities will vary with your datasets. Replace by equal priors if unknown.
     optl <- 0.08 # Replace with the optimal lambda value from above.
-    pfda <- phylo.fda.pred(XA,gA,taxaA,treA,testtaxan,val=optl,priin=pri) # Warning message re: priors can be ignored.
+    pfda <- phylo.fda.pred(XA,gA,taxaA,treA,testtaxan,val=optl,priin=pri)
 
   # Let's Compile cross-classification matrix how well pFDA performed.
 
