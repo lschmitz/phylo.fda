@@ -22,7 +22,7 @@
   # Reading in the tree.
 
     treA <- read.tree("example.tree.tre")
-    if(!is.binary.tree(treA)) treA <- multi2di(treA, random = TRUE) # Randomly resolving polytomies if there are any
+    if(!is.binary(treA)) treA <- multi2di(treA, random = TRUE) # Randomly resolving polytomies if there are any
 
   # Reading in the data and assigning rownames.
 
