@@ -1,0 +1,5 @@
+^\.git$
+^\.github$
+^old_version$
+^.*\.Rproj$
+^\.Rproj\.user$

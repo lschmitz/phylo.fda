@@ -1,0 +1,26 @@
+Package: phylo.fda
+Title: Phylogenetic Flexible Discriminant Analysis
+Version: 0.3.11
+Authors@R: 
+    person("Lars", "Schmitz", email = "lschmitz@cmc.edu", role = c("aut", "cre"))
+Description: Implements phylogenetically adjusted flexible discriminant analysis
+    for classification and prediction of taxa while accounting for expected
+    phylogenetic covariance. The package includes tools for fitting
+    phylogenetic FDA models, optimizing Pagel's lambda, predicting classes and
+    posterior probabilities, preparing training and test datasets, and
+    visualizing discriminant scores and lambda sensitivity.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 4.1.0)
+Imports:
+    ape,
+    mda,
+    graphics,
+    grDevices,
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
